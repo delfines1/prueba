@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+/*--------------------------------------------------------------------------------------------*/
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+form {
+  max-width: 450px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+
+body {
+  background: #e00914d5;
+  font-family: "PT Sans", sans-serif;
+  
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+

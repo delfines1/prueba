@@ -1,0 +1,110 @@
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="main.js"></script>
+
+    <script src="build/jquery.js"></script>
+<script src="build/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet" href="build/mediaelementplayer.css" />
+<link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #185837; border-color:#185837;">
+    <a class="navbar-brand" href="#" style="color: white;">Delfines</a>
+    <button class="navbar-toggler"style="background-color: white;" type="button"  data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" style="color: white;">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Municipios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Calkiní</a>
+            <a class="dropdown-item" href="#">Campeche</a>
+            <a class="dropdown-item" href="#">Carmen</a>
+            <a class="dropdown-item" href="#">Champotón</a>
+            <a class="dropdown-item" href="#">Hecelchakán</a>
+            <a class="dropdown-item" href="#">Hopelchén</a>
+            <a class="dropdown-item" href="#">Palizada</a>
+            <a class="dropdown-item" href="#">Tenabo</a>
+            <a class="dropdown-item" href="#">Escárcega</a>
+            <a class="dropdown-item" href="#">Calakmul</a>
+            <a class="dropdown-item" href="#">Candelaria</a>
+            <a class="dropdown-item" href="#">Seybaplaya</a>
+            <a class="dropdown-item" href="#">Dzitbalché</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+    <h1>Formulario datos</h1>
+    <form>
+      <div class="form-group">
+        <label for="inputAddress">Nombre</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Apellidos</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apellidos"required>
+      </div>
+      <div class="form-group ">
+        <label for="inputEmail4">Correo Electronico</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Correo Electronico"required>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">Colonia</label>
+          <input type="text" class="form-control" id="inputCity"required>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState" >Ciudad</label>
+          <select id="inputState" class="form-control">
+            <option selected>Elegir...</option>
+            <option>Calkiní</option>
+            <option>Campeche</option>
+            <option>Carmen</option>
+            <option>Champotón</option>
+            <option>Hecelchakán</option>
+            <option>Hopelchén</option>
+            <option>Palizada</option>
+            <option>Tenabo</option>
+            <option>Escárcega</option>
+            <option>Calakmul</option>
+            <option>Candelaria</option>
+            <option>Seybaplaya</option>
+            <option>Dzitbalché</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">CP</label>
+          <input type="text" class="form-control" id="inputZip" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck" >
+            Deseo recibir actualizaciones
+          </label>
+        </div>
+      </div>
+      <button style="background-color: #185837; border-color:#185837;"  class="btn btn-primary" onclick="window.location.href = 'main.html';">Enviar</button>
+    </form>
+</body>
+
+</body>
+</html>
